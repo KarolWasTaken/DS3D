@@ -110,7 +110,7 @@ def gameReconnect():
 
 def updatePresence():
     while True:  # The presence will stay on as long as the program is running
-        RPC.update(large_image="large-image", large_text="DARK SOULS III", start = start_time, details="Hits :" + str(variables.actualData))
+        RPC.update(large_image="large-image", large_text="DARK SOULS III", start = start_time, details="Hits: " + str(variables.actualData))
         time.sleep(1) # Can only update rich presence every second
 
 def signalHandler(signum, frame):
