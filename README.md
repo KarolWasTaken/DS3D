@@ -9,7 +9,7 @@ has been looking for something just like this but for hits. I thought, "hey why 
 in the following sections - aswell as the good parts.
 # The Good
 The way I see if the player is hit is I get the initial health value and check it against changes every 0.01 seconds.
-The counter doesnt increase when the damage done is bellow 7 (to avoid poison counting as hits) - neato.
+The counter doesnt increase when the damage done is bellow 7 (to avoid poison counting as hits).
  It also doesnt register healing as a hit which is also nice. This function can be viewed in DarkSoulsDeathCount.py at 
  lines 80 - 102. 
 # The Bad
