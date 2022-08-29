@@ -13,16 +13,14 @@ The counter doesnt increase when the damage done is bellow 7 (to avoid poison co
  It also doesnt register healing as a hit which is also nice. This function can be viewed in DarkSoulsDeathCount.py at 
  lines 80 - 102. 
 # The Bad
-Stuff like fall damage still counts as a hit - pretty big bummer :/. Also when the enemy falls on you, thats not counted
-as a hit (though it is one). I guess its such a rare occurrence that I should need to overcomplicate the program for it 
-but its still kinda a bummer. Maybe someone who is better at DS3 modding and python could try and fix this. I'll see what I can do 
-in the mean time.
-
+Stuff like fall damage still counts as a hit. Also when the enemy falls on you, thats not counted
+as a hit (though it is one). I guess its such a rare occurrence that I shouldnt need to overcomplicate the program for it.
+Maybe someone who is better at DS3 modding and python could try and fix this. 
 # The Ugly
-I am like super lazy and stuff so I haven't changed the variable names from 'deaths' or something to 'hits'.
+I am like super lazy so I haven't changed the variable names from 'deaths' to 'hits'.
 Everytime something references a death in the code, thats just a hit in disguise. This program is a fork of my own [DS3C](https://github.com/TohruTheMaid/DS3C) program
-so they share like 99% of the code. I am also not a genius programmer so optimisations and just general edits to the code 
-to make it cleaner are probably here in plentiful demand. Oh also the console gets spammed up with 'Read Memory - Error Code: 6' :). Don't worry thats normal. If you
+so they share 99% of the code. I am not a genius programmer so optimisations and general edits to the code 
+to make it cleaner are here in plentiful demand. Oh also the console gets spammed up with 'Read Memory - Error Code: 6'. Don't worry thats normal. If you
 really want that gone, comment out line 63 in process_interface.py.
 ## Acknowledgements
 
